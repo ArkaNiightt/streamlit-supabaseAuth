@@ -1,15 +1,13 @@
 from view import viewApp
 import streamlit as st
 from database.supabaseQuerys import check_login
+from utils.config import HERO_IMAGE
 
 st.set_page_config(
-    page_title="Sistema de Vendas",
-    page_icon="🛒",
+    page_title="Coloque o titulo da sua página aqui",
+    page_icon="🚀",
     layout="wide"
 )
-
-
-HERO_IMAGE = "src/assets/loginHero.jpg"
 
 
 def protected_page():
