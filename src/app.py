@@ -18,7 +18,10 @@ def login_page():
     col_01, col_02 = st.columns(2, vertical_alignment="center", gap="large")
 
     with col_01:
-        st.image(image=HERO_IMAGE, use_container_width=True)
+        st.image(
+            image=HERO_IMAGE,
+            use_container_width=True
+        )
 
     with col_02:
         st.header("Faça login para acessar as funcionalidades.", divider=True)
